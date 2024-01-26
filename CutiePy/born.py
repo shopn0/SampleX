@@ -28,3 +28,19 @@ c= True
 
 q = (a and b) or ((b or c)and (b and c))
 print("q=",q)
+
+#Bitwise Operators
+a = 60
+b = 13
+c=(a&b)
+print("a.",c)
+x = a<<2 #left shift with 2 bits shift (for right shift it loses bits per right side)
+print("e.", x)
+
+#Assigns
+d = 4
+d += 3 # here, d = d + 3
+print(d)
+
+#Operator Priorities
+#left first
