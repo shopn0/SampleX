@@ -42,5 +42,5 @@ d = 4
 d += 3 # here, d = d + 3
 print(d)
 
-#Operator Priorities
+#Operator Priorities:
 #left first
